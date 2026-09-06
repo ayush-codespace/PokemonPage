@@ -6,53 +6,71 @@
     <title>Main Page</title>
 </head>
 <body>
-    <h1 id="top" style="background-color: red; color: white; text-align: center;">Welcome to the Pokemon's Collection</h1>
-    <img src="images/poke.png" alt="pokeball" width="10%" title="Pokeball">
+
+    <div id="header" style="background-color: red; color: white; text-align: center;">
+        <h1 id="top" >Welcome to the Pokemon's Collection</h1>
+        <img src="images/poke.png" alt="pokeball" width="10%" title="Pokeball">
+    </div>
+
     <hr>
-    <p style="text-align: center;">Pokémon card collection refers to the hobby of gathering and organizing Pokémon Trading Card Game (TCG) cards, which can range from casual acquisition of favorite characters to the systematic completion of entire expansion sets or <b>"master sets."</b> Collectors typically pursue specific themes, such as <i>holo cards, Illustration Rares, vintage sets,</i> or cards featuring specific Pokémon like Charizard or Pikachu.</p>
-    <p style="text-align: center;">Step into the world of Pokémon, where trainers of all levels can find the cards and accessories needed to build powerful decks and expand their collections. Whether you're aiming to catch 'em all or seeking out specific cards to <b>strengthen your strategies,</b> this category offers a diverse selection to suit your needs. From booster packs filled with potential to rare and sought-after singles, every item is chosen to enhance your Pokémon journey. Equip yourself with the latest releases, protect your cards with top-tier accessories, or search for that perfect addition to your deck. The world of Pokémon is vast and ever-changing, and this is your hub for staying ahead in the game, trading, battling, and collecting with <u>fellow trainers around the globe.</u></p>
+
+    <div id="main" style="text-align: center;">
+        <p>Pokémon card collection refers to the hobby of gathering and organizing Pokémon Trading Card Game (TCG) cards, which can range from casual acquisition of favorite characters to the systematic completion of entire expansion sets or <b>"master sets."</b> Collectors typically pursue specific themes, such as <i>holo cards, Illustration Rares, vintage sets,</i> or cards featuring specific Pokémon like Charizard or Pikachu.</p>
+        <p>Step into the world of Pokémon, where trainers of all levels can find the cards and accessories needed to build powerful decks and expand their collections. Whether you're aiming to catch 'em all or seeking out specific cards to <b>strengthen your strategies,</b> this category offers a diverse selection to suit your needs. From booster packs filled with potential to rare and sought-after singles, every item is chosen to enhance your Pokémon journey. Equip yourself with the latest releases, protect your cards with top-tier accessories, or search for that perfect addition to your deck. <span id="explore" style="background-color: pink;">The world of Pokémon is vast and ever-changing, and this is your hub for staying ahead in the game, trading, battling, and collecting with <u>fellow trainers around the globe.</u></span></p>
+    </div>
+
     <hr>
-    <h2 style="background-color: red; color: white; text-align: center;">Lets Explore Some Pokemons</h2>
-    <a href="bulb.html">
+
+    <div id="nav">
+        <h2 style="background-color: red; color: white; text-align: center;">Lets Explore Some Pokemons</h2>
+        <a href="bulb.html">
         <img src="images/bulb1.png" alt="bulbasaur" width="15%" title="bulbasaur">
-    </a>
-    <a href="char.html">
+        </a>
+         <a href="char.html">
         <img src="images/char1.png" alt="charmander" width="15%" title="charmander">
-    </a>
-    <a href="squirt.html">
+        </a>
+        <a href="squirt.html">
         <img src="images/squirt1.png" alt="squirtle" width="15%" title="squirtle">
-    </a>
-    <table border="5px" cellpadding="5px" cellspacing="5px">
-        <tr style="text-align: center">
+        </a>
+    </div>
+    <div class="table" style="text-align: center">
+        <table border="5px" cellpadding="5px" cellspacing="5px">
+            <tr>
             <th>Bulbasaur</th>
             <th>Charmander</th>
             <th>Squirtle</th>
-        </tr>
-        <tr style="text-align: center">
-            <td>Grass</td>
-            <td>Fire</td>
-            <td>Water</td>
-        </tr>
-        <tr style="text-align: center">
-            <td>Ground</td>
-            <td>Ground</td>
-            <td>Aquatic</td>
-        </tr>
-        <tr style="text-align: center">
-            <td>Fire</td>
-            <td>Water</td>
-            <td>Electric</td>
-        </tr>
+            </tr>
+            <tr>
+                <td>Grass</td>
+                <td>Fire</td>
+                <td>Water</td>
+            </tr>
+            <tr>
+                <td>Ground</td>
+                <td>Ground</td>
+                <td>Aquatic</td>
+            </tr>
+            <tr>
+                <td>Fire</td>
+                <td>Water</td>
+                <td>Electric</td>
+            </tr>
 
-    </table>
+        </table>
+    </div>
+
     <hr>
-    <h2 style="background-color: red; color: white; text-align: center;">To Learm More About Pokemons</h2>
+    <div id="external">
+        <h2 style="background-color: red; color: white; text-align: center;">To Learm More About Pokemons</h2>
         <ul>
             <li><a href="https://www.pokemon.com/us" target=_blank>Pokemon Website</a></li>
             <li><a href="https://pokemongo.com/en" target=_blank>Pokemon Go</a></li>
             <li><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" target=_blank>Pokemon Wiki</a></li>
         </ul>
-    <hr>
+        <hr>
+    </div>
+
+    <div id="hijacksearch">
     <h2 style="background-color: yellowgreen; color: white; text-align: center;">Search Engine</h2>
     <form action="https://www.google.com/search">
         <label for="search">Search Anything On Google</label>
@@ -61,12 +79,16 @@
         <button type="reset"> Reset </button>
     </form>
     <hr>
+    </div>
+
+    <div id="footer">
     <h2 style="background-color: violet; color: white; text-align: center;">Explore Other Pages</h2>
     <a href="index.html">Index Page</a>
     <a href="bulb.html"> Bulb Page</a>
     <a href="char.html"> Char Page</a>
     <a href="squirt.html"> Squirt Page</a><br>
     <a href="#top">Go Back To Top</a>
+    </div>
 
 </body>
 </html>
